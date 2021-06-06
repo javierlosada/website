@@ -9,20 +9,20 @@ body {
     -webkit-font-smoothing: antialiased;
     margin: 0;
     font-size: 3.6vw;
-}
+    }
 
 h1, p {
     font-size: 1em;
     line-height: 160%;
     font-weight: normal;
     margin: 0 0 1em 0;
-}
+    }
 
 a {
     text-decoration: none;
     border-bottom: 2px solid;
     color: darkgray;
-}
+    }
 
 
 /*Tablet */
@@ -30,26 +30,26 @@ a {
  
     h1, p {
     font-size: 4.8vw;
-}
+    }
     
 /* Mobile - Landcape */
 @media only screen and (max-width: 767px) {
      html {
     padding: 36px;
-}
+    }
     
     h1, p {
     font-size: 36px;
-}
+    }
 
 /* Mobile - Portrait */
 @media only screen and (max-width: 479px) {
     html {
     padding: 24px;
-}
+    }
     
     a {
-    border-bottom: 4px;
+    border-bottom: 4px solid;
     }
     
     h1, p {
