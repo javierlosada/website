@@ -1,0 +1,54 @@
+html {
+    margin: auto;
+    padding: 8%;
+}
+body {
+    background-color: black;
+    color: white;
+    font-family:'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    font-size: 3.6vw;
+}
+
+h1, p {
+    font-size: 1em;
+    line-height: 160%;
+    font-weight: normal;
+    margin: 0 0 1em 0;
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 2px solid;
+    color: darkgray;
+}
+
+
+/*Tablet */
+@media only screen and (max-width: 991px) {
+ 
+    h1, p {
+    font-size: 4.8vw;
+}
+    
+/* Mobile - Landcape */
+@media only screen and (max-width: 767px) {
+     html {
+    padding: 36px;
+}
+    
+    h1, p {
+    font-size: 36px;
+}
+
+/* Mobile - Portrait */
+@media only screen and (max-width: 479px) {
+    html {
+    padding: 24px;
+}
+    
+    h1, p {
+    font-size: 24px;
+}   
+}
