@@ -8,14 +8,14 @@ body {
     font-family:'Inter', sans-serif;
     -webkit-font-smoothing: antialiased;
     margin: 0;
-    font-size: 3.6vw;
     }
 
 h1, p {
-    font-size: 1em;
+    font-size: 3.70vw;
     line-height: 160%;
     font-weight: normal;
     margin: 0 0 1em 0;
+    letter-spacing: -0.02em;
     }
 
 a {
@@ -54,5 +54,6 @@ a {
     
     h1, p {
     font-size: 24px;
+    letter-spacing: 0;
     }   
 }
