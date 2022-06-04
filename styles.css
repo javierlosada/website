@@ -28,9 +28,12 @@ a {
 
 /*Tablet */
 @media only screen and (max-width: 991px) {
+    html {
+    padding: 5%;
+    }
  
     h1, p {
-    font-size: 8vw;
+    font-size: 7.5vw;
     }
     
 /* Mobile - Landcape 
@@ -49,12 +52,12 @@ a {
     padding: 24px;
     }
     
-    a {
-    /*border-bottom: 1px solid;*/
+    /* a {
+    border-bottom: 1px solid;
     }
     
     h1, p {
     font-size: 7.5 vw;
     letter-spacing: -0.01em;
-    }   
+    } */
 }
